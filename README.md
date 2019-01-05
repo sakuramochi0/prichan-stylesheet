@@ -15,7 +15,7 @@ YouTube をプリ☆チャンにプリティーリメイクするスタイルシ
 3. [YouTube](https://www.youtube.com) を開けば、プリ☆チャンになっているはずです！
 ### ライセンス
 
-- [GNU GPLv3](./LICENSE)
+- [GNU GPLv3](./LICENSE) (ただし、スクリーンショット画像を除く)
 
 ### スクリーンショット
 
@@ -54,4 +54,4 @@ This is a stylesheet to change YouTube to Pri☆Chan.
 
 ### License
 
-- [GNU GPLv3](./LICENSE)
+- [GNU GPLv3](./LICENSE) (Except for screenshots)
