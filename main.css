@@ -168,4 +168,10 @@
     .ytmusic-menu-popup-renderer {
         --paper-listbox-background-color: var(--primary-light) !important;
     }
+
+    /* search box */
+    .ytmusic-search-suggestions-section,
+    .ytmusic-nav-bar[opened] .search-box.ytmusic-search-box {
+        background-color: var(--primary-light) !important;
+    }
 }
