@@ -1,0 +1,123 @@
+/* ==UserStyle==
+@name           キラッとプリチャン (Kiratto PriChan)
+@namespace      github.com/openstyles/stylus
+@version        1.1.0
+@description    YouTube をプリ☆チャンに変身させるスタイルです。(Style to change YouTube to Pri☆Chan.)
+@author         さくらもち (@skrmch_rhythpri)
+==/UserStyle== */
+@-moz-document domain("youtube.com")
+{
+    /* define variables */
+  :root
+  {
+    --primary: #ff508c;
+    --primary-light: #ffabc8;
+    --white: rgba(255, 255, 255, 0.8);
+    --background: linear-gradient(var(--white), var(--white)), url(https://prichan.jp/resources/images/howtoplay/bg-title.png);
+    --prichan-logo: url(https://storage.googleapis.com/sakuramochi-prichan/prichan-logo.png);
+  }
+
+    /* main style */
+  body,
+    ytd-masthead
+  {
+    --yt-swatch-primary: var(--primary) !important;
+    --yt-swatch-primary-darker: var(--primary) !important;
+    --yt-main-app-background: var(--background);
+    --yt-main-app-background-tmp: var(--background);
+    --yt-app-background: var(--background);
+    --yt-sidebar-background: var(--background);
+    --yt-swatch-icon-color: var(--white) !important;
+    --yt-guide-background: var(--primary-light);
+  }
+
+    /* button */
+  paper-button
+  {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    border-radius: 1.5em !important;
+    --yt-spec-brand-button-background: var(--yt-spec-icon-active-button-link) !important;
+  }
+
+    /* logo */
+  #logo-icon-container > svg
+  {
+    display: none !important;
+  }
+
+  #logo-icon-container
+  {
+    width: 140px !important;
+    height: 35px !important;
+    background-image: var(--prichan-logo);
+    background-size: cover;
+  }
+
+  #country-code
+  {
+    color: var(--white) !important;
+  }
+
+    /* searchbox */
+  ytd-searchbox
+  {
+    --yt-searchbox-background: var(--white);
+    --yt-searchbox-text-color: var(--yt-searchbox-primary-color);
+    --ytd-searchbox-legacy-border-color: var(--ytd-searchbox-border-color);
+    --ytd-searchbox-legacy-button-border-color: var(--ytd-searchbox-border-color);
+    --ytd-searchbox-legacy-button-color: var(--primary-light);
+    --ytd-searchbox-legacy-button-icon-color: #333;
+  }
+
+    /* side bar icon */
+  .guide-icon,
+    .yt-img-shadow
+  {
+    margin-left: -5px;
+    margin-right: 20px !important;
+    color: var(--white) !important;
+    background-color: var(--primary);
+    padding: 0.5em;
+    border-radius: 5px;
+  }
+
+  #guide-icon
+  {
+    --yt-swatch-text: var(--white);
+  }
+
+    /**
+     * for m.youtube.com
+     */
+  .header-bar,
+    .scbrr-tabs,
+    ytm-header-fab-renderer,
+    .playlist-play-all-button
+  {
+    background-color: var(--primary) !important;
+  }
+
+  .header-bar-logo
+  {
+    width: 140px !important;
+    height: 35px !important;
+    background-image: var(--prichan-logo);
+    background-size: cover;
+  }
+
+  .header-bar-logo > svg
+  {
+    display: none;
+  }
+
+  .header-bar h1.title
+  {
+    color: transparent;
+  }
+
+  body
+  {
+    background-image: var(--background);
+  }
+}
