@@ -107,7 +107,9 @@
         background-image: var(--background);
     }
 
-    /* for music.youtube.com */
+    /**
+     * for music.youtube.com
+     */
     html {
         /* bottom bar */
         --ytmusic-player-bar-background-color: var(--primary-light) !important;
