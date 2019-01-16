@@ -1,4 +1,4 @@
-#### [English](#en)
+**[English](#en)**
 
 # prichan-stylesheet
 
@@ -21,35 +21,35 @@
 2. Stylus をインストール後、[スタイルの公開ページ](https://userstyles.org/styles/167470/kiratto-prichan)を開くと、「Install Style (スタイルをインストールする)」という青いボタンが現れるので、クリックしてインストールします。
 3. スタイルが正しくインストールされていれば、[YouTube](https://www.youtube.com) などを開けば、プリ☆チャンになっているはずです！
 
-### ライセンス
+## ライセンス
 
 - [GNU GPLv3](./LICENSE) (ただし、スクリーンショット画像を除く)
 
-### スクリーンショット
+## スクリーンショット
 
-#### YouTube
+### YouTube
 
-##### Video Page
+#### Video Page
 
 ![YouTube Screenshoot 1](screenshot/1-kinpri.png)
 
-##### Seach Result Page
+#### Seach Result Page
 
 ![YouTube Screenshoot 2](screenshot/2-prichan.png)
 
-##### m.youtube.com on Google Chrome for macOS
+#### m.youtube.com on Google Chrome for macOS
 
 ![YouTube Screenshoot 3](screenshot/android-1.png)
 
-##### m.youtube.com on Firefox for Android
+#### m.youtube.com on Firefox for Android
 
 ![YouTube Screenshoot 4](screenshot/android-2.png)
 
-#### Twitter
+### Twitter
 
 ![Twitter Screenshoot](screenshot/twitter.png)
 
-#### TweetDeck
+### TweetDeck
 
 ![TweetDeck Screenshoot](screenshot/tweetdeck.png)
 
@@ -77,6 +77,6 @@ A stylesheet to change several web site to Pri☆Chan.
 2. Open [stylesheet publish page](https://userstyles.org/styles/167470/kiratto-prichan), then you will see the blue button "Install Style". Then, click it to install this style.
 3. You should be able to go to Pri☆Chan here: <a href="https://www.youtube.com/">YouTube</a> or <a href="https://twitter.com/">Twitter</a>!
 
-### License
+## License
 
 - [GNU GPLv3](./LICENSE) (Except for screenshots)
