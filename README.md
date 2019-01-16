@@ -1,10 +1,17 @@
 #### [English](#en)
 
-# youtube-prichan-stylesheet
+# prichan-stylesheet
 
-YouTube をプリ☆チャンにプリティーリメイクするスタイルシートです。
+いろいろなウェブサイトをプリ☆チャンにプリティーリメイクするスタイルシートです。
 
-*※ヘッダカラーはみらいちゃんのリボンの色です。🎀✨*
+*※テーマカラーはみらいちゃんのリボンの色です。🎀✨*
+
+## 対応サイト
+
+- [YouTube](https://youtube.com/)
+- [YouTube Music](https://music.youtube.com/)
+- [Twitter](https://twitter.com/)
+- [TweetDeck](https://tweetdeck.twitter.com/)
 
 ## スタイルのインストール方法
 
@@ -12,45 +19,63 @@ YouTube をプリ☆チャンにプリティーリメイクするスタイルシ
    * [Stylus - Chrome Web Store](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
    * [Stylus – Get this Extension for 🦊 Firefox (ja)](https://addons.mozilla.org/ja/firefox/addon/styl-us)
 2. Stylus をインストール後、[スタイルの公開ページ](https://userstyles.org/styles/167470/kiratto-prichan)を開くと、「Install Style (スタイルをインストールする)」という青いボタンが現れるので、クリックしてインストールします。
-3. [YouTube](https://www.youtube.com) を開けば、プリ☆チャンになっているはずです！
+3. スタイルが正しくインストールされていれば、[YouTube](https://www.youtube.com) などを開けば、プリ☆チャンになっているはずです！
+
 ### ライセンス
 
 - [GNU GPLv3](./LICENSE) (ただし、スクリーンショット画像を除く)
 
 ### スクリーンショット
 
-#### Video Page
+#### YouTube
 
-![Screenshoot 1](screenshot/1-kinpri.png)
+##### Video Page
 
-#### Seach Result Page
+![YouTube Screenshoot 1](screenshot/1-kinpri.png)
 
-![Screenshoot 2](screenshot/2-prichan.png)
+##### Seach Result Page
 
-#### m.youtube.com on Google Chrome for macOS
+![YouTube Screenshoot 2](screenshot/2-prichan.png)
 
-![Screenshoot 3](screenshot/android-1.png)
+##### m.youtube.com on Google Chrome for macOS
 
-#### m.youtube.com on Firefox for Android
+![YouTube Screenshoot 3](screenshot/android-1.png)
 
-![Screenshoot 4](screenshot/android-2.png)
+##### m.youtube.com on Firefox for Android
+
+![YouTube Screenshoot 4](screenshot/android-2.png)
+
+#### Twitter
+
+![Twitter Screenshoot](screenshot/twitter.png)
+
+#### TweetDeck
+
+![TweetDeck Screenshoot](screenshot/tweetdeck.png)
 
 ---
 
 <a name="en"></a>
 
-# youtube-prichan-stylesheet
+# prichan-stylesheet
 
-This is a stylesheet to change YouTube to Pri☆Chan.
+A stylesheet to change several web site to Pri☆Chan.
 
-*Hint: The header color is the color of Mirai's ribbon.🎀✨*
+*Hint: The primary color is the one of Mirai's ribbon.🎀✨*
+
+## Support web site
+
+- [YouTube](https://youtube.com/)
+- [YouTube Music](https://music.youtube.com/)
+- [Twitter](https://twitter.com/)
+- [TweetDeck](https://tweetdeck.twitter.com/)
 
 ## How to install
 1. Install the browser extension, Stylus. (You must use Stylus not stylish.) You can download Stylus from below links.
    * [Stylus - Chrome Web Store](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
    * [Stylus – Get this Extension for 🦊 Firefox (ja)](https://addons.mozilla.org/ja/firefox/addon/styl-us)
 2. Open [stylesheet publish page](https://userstyles.org/styles/167470/kiratto-prichan), then you will see the blue button "Install Style". Then, click it to install this style.
-3. You should be able to go to Pri☆Chan here: <a href="https://www.youtube.com/">YouTube</a>!
+3. You should be able to go to Pri☆Chan here: <a href="https://www.youtube.com/">YouTube</a> or <a href="https://twitter.com/">Twitter</a>!
 
 ### License
 
