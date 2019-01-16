@@ -12,8 +12,8 @@
         --primary: #ff508c;
         --primary-light: #ffabc8;
         --white: rgba(255, 255, 255, 0.8);
-        --background: linear-gradient(var(--white), var(--white)), url(https://prichan.jp/resources/images/howtoplay/bg-title.png);
-        --prichan-logo: url(https://storage.googleapis.com/sakuramochi-prichan/prichan-logo.png);
+        --background: linear-gradient(var(--white), var(--white)), url(https://pbs.twimg.com/media/DxCTexnV4AAA4Qs.jpg:orig);
+        --prichan-logo: url(https://pbs.twimg.com/media/DxCRtnUVAAU9jml.png:orig);
     }
 
     /* main style */
