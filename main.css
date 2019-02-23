@@ -53,6 +53,11 @@
         color: var(--white) !important;
     }
 
+    /* header */
+    #masthead {
+        background: var(--primary);
+    }
+
     /* searchbox */
     ytd-searchbox {
         --yt-searchbox-background: var(--white);
@@ -70,7 +75,7 @@
         margin-right: 20px !important;
         color: var(--white) !important;
         background-color: var(--primary);
-        padding: 0.5em;
+        padding: 0.5rem;
         border-radius: 5px;
     }
 
