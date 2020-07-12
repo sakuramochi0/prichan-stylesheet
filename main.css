@@ -4,6 +4,17 @@
 @version        2.0.3
 @description    いろいろなウェブサイトをプリ☆チャンに変身させるスタイルです。(Style to change websites to Pri☆Chan.)
 @author         sakuramochi <sakuramochi.mochi.0@gmail.com>
+
+changelog:
+v2.0.3 - 2020-07-12 - Fix the problem where extra padding is appended to normal icon.
+v2.0.2 - 2019-02-23 - Fix the header color and the sidebar icon padding.
+v2.0.1 - 2019-01-17 - Fix some URLs.
+v2.0.0 - 2019-01-17 - Support twitter.com & tweetdeck.twitter.com.
+v1.2.1 - 2019-01-06 - Fix search box background color.
+v1.2.0 - 2019-01-06 - Support music.youtube.com.
+v1.1.1 - 2019-01-04 - Fix the transparent sidebar text problem on the desktop version.
+v1.1.0 - 2019-01-04 - Support m.youtube.com.
+v1.0.0 - 2019-01-04 - Initial release.
 ==/UserStyle== */
 
 @-moz-document domain("youtube.com") {
