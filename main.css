@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name           キラッとプリチャン (Kiratto PriChan)
 @namespace      github.com/sakuramochi0/prichan-stylesheet
-@version        2.0.2
+@version        2.0.3
 @description    いろいろなウェブサイトをプリ☆チャンに変身させるスタイルです。(Style to change websites to Pri☆Chan.)
-@author         さくらもち (@skrmch_rhythpri) <sakuramochi.mochi.0@gmail.com>
+@author         sakuramochi <sakuramochi.mochi.0@gmail.com>
 ==/UserStyle== */
 
 @-moz-document domain("youtube.com") {
@@ -75,8 +75,11 @@
         margin-right: 20px !important;
         color: var(--white) !important;
         background-color: var(--primary);
-        padding: 0.5rem;
         border-radius: 5px;
+    }
+
+    yt-icon.guide-icon.style-scope.ytd-guide-entry-renderer {
+      padding: 0.5rem;
     }
 
     #guide-icon {
