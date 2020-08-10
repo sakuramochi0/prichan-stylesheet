@@ -1,11 +1,12 @@
 /* ==UserStyle==
 @name           キラッとプリチャン (Kiratto PriChan)
 @namespace      github.com/sakuramochi0/prichan-stylesheet
-@version        2.0.3
+@version        2.0.4
 @description    いろいろなウェブサイトをプリ☆チャンに変身させるスタイルです。(Style to change websites to Pri☆Chan.)
 @author         sakuramochi <sakuramochi.mochi.0@gmail.com>
 
 changelog:
+v2.0.4 - 2020-08-02 - Fix the same problem, the background, and sidebar.
 v2.0.3 - 2020-07-12 - Fix the problem where extra padding is appended to normal icon.
 v2.0.2 - 2019-02-23 - Fix the header color and the sidebar icon padding.
 v2.0.1 - 2019-01-17 - Fix some URLs.
@@ -25,6 +26,8 @@ v1.0.0 - 2019-01-04 - Initial release.
         --white: rgba(255, 255, 255, 0.8);
         --background: linear-gradient(var(--white), var(--white)), url(https://pbs.twimg.com/media/DxCTexnV4AAA4Qs.jpg:orig);
         --prichan-logo: url(https://pbs.twimg.com/media/DxCRtnUVAAU9jml.png:orig);
+        --button-color: #065fd4;
+        --button-color-light: #2c6dc4;
     }
 
     /* main style */
@@ -38,6 +41,12 @@ v1.0.0 - 2019-01-04 - Initial release.
         --yt-sidebar-background: var(--background);
         --yt-swatch-icon-color: var(--white) !important;
         --yt-guide-background: var(--primary-light);
+    }
+
+    /* background */
+    ytd-app,
+    #guide-content {
+        background-image: var(--background) !important;
     }
 
     /* button */
@@ -69,7 +78,11 @@ v1.0.0 - 2019-01-04 - Initial release.
         background: var(--primary);
     }
 
-    /* searchbox */
+    #masthead yt-icon {
+        color: var(--white);
+    }
+
+    /* search box */
     ytd-searchbox {
         --yt-searchbox-background: var(--white);
         --yt-searchbox-text-color: var(--yt-searchbox-primary-color);
@@ -83,18 +96,27 @@ v1.0.0 - 2019-01-04 - Initial release.
     .guide-icon,
     .yt-img-shadow {
         margin-left: -5px;
-        margin-right: 20px !important;
         color: var(--white) !important;
         background-color: var(--primary);
         border-radius: 5px;
     }
 
-    yt-icon.guide-icon.style-scope.ytd-guide-entry-renderer {
-      padding: 0.5rem;
+    app-drawer[opened]  {
+        margin-right: 20px !important;
+    }
+
+    yt-icon.guide-icon.style-scope.ytd-guide-entry-renderer,
+    ytd-mini-guide-renderer yt-icon {
+        padding: 0.5rem;
     }
 
     #guide-icon {
         --yt-swatch-text: var(--white);
+    }
+
+    /* button */
+    paper-button.ytd-subscribe-button-renderer {
+        background: var(--button-color);
     }
 
     /**
@@ -120,10 +142,6 @@ v1.0.0 - 2019-01-04 - Initial release.
 
     .header-bar h1.title {
         color: transparent;
-    }
-
-    body {
-        background-image: var(--background);
     }
 
     /**
