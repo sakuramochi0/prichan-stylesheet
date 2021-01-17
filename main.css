@@ -24,8 +24,8 @@ v1.0.0 - 2019-01-04 - Initial release.
         --primary: #ff508c;
         --primary-light: #ffabc8;
         --white: rgba(255, 255, 255, 0.8);
-        --background: linear-gradient(var(--white), var(--white)), url(https://pbs.twimg.com/media/DxCTexnV4AAA4Qs.jpg:orig);
-        --prichan-logo: url(https://pbs.twimg.com/media/DxCRtnUVAAU9jml.png:orig);
+        --background: linear-gradient(var(--white), var(--white)), url(https://storage.googleapis.com/sakuramochi-prichan/prichan-background.jpg);
+        --prichan-logo: url(https://storage.googleapis.com/sakuramochi-prichan/prichan-logo.png);
         --button-color: #065fd4;
         --button-color-light: #2c6dc4;
     }
@@ -58,15 +58,15 @@ v1.0.0 - 2019-01-04 - Initial release.
     }
 
     /* logo */
-    #logo-icon-container > svg {
-        display: none !important;
-    }
-
-    #logo-icon-container {
+    #logo {
         width: 140px !important;
         height: 35px !important;
         background-image: var(--prichan-logo);
         background-size: cover;
+    }
+
+    #logo img {
+        display: none;
     }
 
     #country-code {
