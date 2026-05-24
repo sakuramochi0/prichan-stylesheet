@@ -59,7 +59,8 @@ v1.0.0 - 2019-01-04 - Initial release.
 
     /* background */
     ytd-app,
-    #guide-content {
+    #guide-content,
+    .ytd-tabbed-page-header {
         background-image: var(--background) !important;
     }
 
