@@ -10,8 +10,8 @@
 
 - [YouTube](https://youtube.com/)
 - [YouTube Music](https://music.youtube.com/)
-- [Twitter](https://twitter.com/)
-- [TweetDeck](https://tweetdeck.twitter.com/)
+- ~~[Twitter](https://twitter.com/)~~
+- ~~[TweetDeck](https://tweetdeck.twitter.com/)~~
 
 ## スタイルのインストール方法
 
