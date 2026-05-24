@@ -4,6 +4,7 @@
 @version        2.0.5
 @description    いろいろなウェブサイトをプリ☆チャンに変身させるスタイルです。(Style to change websites to Pri☆Chan.)
 @author         sakuramochi <sakuramochi.mochi.0@gmail.com>
+@var          checkbox enableRainbow "Enable rainbow header" 0
 
 changelog:
 v2.0.6 - 2021-05-16 - Fix the issue where YouTube logo is above the Prichan logo.
@@ -30,6 +31,16 @@ v1.0.0 - 2019-01-04 - Initial release.
         --prichan-logo: url(https://storage.googleapis.com/sakuramochi-prichan/prichan-logo.png);
         --button-color: #065fd4;
         --button-color-light: #2c6dc4;
+
+        if enableRainbow {
+            --header: linear-gradient(45deg,
+            #da98f6, #c39af5, #ac9cf5, #a7a9f6,
+            #aff3f6, #affff1, #aeffd9, #afffc3,
+            #afffb0, #bdffab, #d4ffae, #edffaf,
+            #fbfdae, #f8dfad, #f4b9aa, #f3a1a7, #f29ca9);
+        } else {
+              --header: #ff508c;
+          }
     }
 
     /* main style */
@@ -77,7 +88,7 @@ v1.0.0 - 2019-01-04 - Initial release.
 
     /* header */
     #masthead {
-        background: var(--primary);
+        background: var(--header);
     }
 
     #masthead yt-icon {
