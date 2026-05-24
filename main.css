@@ -55,6 +55,7 @@ v1.0.0 - 2019-01-04 - Initial release.
         --yt-sidebar-background: var(--background);
         --yt-swatch-icon-color: var(--white) !important;
         --yt-guide-background: var(--primary-light);
+        --yt-spec-base-background: var(--white) !important;
     }
 
     /* background */
