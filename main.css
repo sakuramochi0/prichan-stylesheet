@@ -1,13 +1,14 @@
 /* ==UserStyle==
 @name           キラッとプリチャン (Kiratto PriChan)
 @namespace      github.com/sakuramochi0/prichan-stylesheet
-@version        2.0.5
+@version        2.1.0
 @description  <em>English:</em>  This stylesheet changes several websites to Pri☆Chan.  Hint: The primary color is the one of Mirai's ribbon.?✨    ■How to install  1. Install the browser extension, Stylus. (You must use Stylus not stylish.)  2. Reload this page, then you will see the button "Install Style". So click it to install this style.  3. You will be able to go to Pri☆Chan here: <a href="https://www.youtube.com/">YouTube</a>!    <em>Japanese:</em>  いろいろなウェブサイトをプリ☆チャンにプリティーリメイクするスタイルシートです。  ※テーマカラーはみらいちゃんのリボンの色です。?✨    ■スタイルのインストール方法  1. Stylus というブラウザの拡張機能をインストールします。(stylish ではなく Stylus を使用してください)  - <a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne">Stylus - Chrome Web Store</a>  - <a href="https://addons.mozilla.org/ja/firefox/addon/styl-us/">Stylus – Get this Extension for ? Firefox (ja)</a>  2. このページをリロードすると「Install Style (スタイルをインストールする)」というボタンが現れるので、クリックしてインストールします。  3. <a href="https://www.youtube.com/">YouTube</a> などを開くと、プリ☆チャンになっているはずです！
 @author         sakuramochi <sakuramochi.mochi.0@gmail.com>
 @var          checkbox enableRainbow "Enable rainbow header" 0
 @var          checkbox enablePrichanLogo "Replace YouTube logo with PriChan logo" 1
 
 changelog:
+v3.0.0 - 2026-05-25 - Drop support for Twitter where true prism's sparking no loger exists. Add rainbow header feature and option to disable prichan logo replacement with default youtube logo
 v2.0.6 - 2021-05-16 - Fix the issue where YouTube logo is above the Prichan logo.
 v2.0.5 - 2021-01-17 - Fix the regression of logo images and change the image host to Google Cloud Storage.
 v2.0.4 - 2020-08-02 - Fix the same problem, the background, and sidebar. (Thank you for reporting bugs. @r4ymond2 @jdramirez165)
